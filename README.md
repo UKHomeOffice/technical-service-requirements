@@ -21,3 +21,4 @@ and raise a PR for this to be amended.
 * [Continuous_Deployment](docs/cd.md)
 * [Security](docs/security.md)
 * [Performance](docs/performance.md)
+* [Reusability Criteria](docs/reusability.md)
