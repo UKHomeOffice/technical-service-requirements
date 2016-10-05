@@ -20,3 +20,4 @@ and raise a PR for this to be amended.
 * [Continuous Integration](docs/ci.md)
 * [Continuous_Deployment](docs/cd.md)
 * [Security](docs/security.md)
+* [Performance](docs/performance.md)
