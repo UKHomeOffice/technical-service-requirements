@@ -11,7 +11,7 @@
 - Architected so upgrades do not cause downtime
 - Offer a status page for the service for good communication on issues / downtime
 - Be highly available
-- Be backwards compatible i.e. an upgrade of one version should not break someone consuming consuming the old
+- Be backwards compatible i.e. an upgrade of one version should not break a dependent service using an older version
 - Should have good performance metrics
 - Should autoscale based on the performance metrics
 - Should follow internal standards and technology stacks
