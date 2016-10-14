@@ -17,6 +17,7 @@ and raise a PR for this to be amended.
 * [Monitoring and Metrics](docs/monitoring_metrics.md)
 * [Logging](docs/logging.md)
 * [Service Discovery](docs/service_discovery.md)
+* [Containerisation](docs/containerisation.md)
 * [Continuous Integration](docs/ci.md)
 * [Continuous_Deployment](docs/cd.md)
 * [Security](docs/security.md)
