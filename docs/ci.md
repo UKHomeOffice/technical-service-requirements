@@ -16,3 +16,4 @@
 - Do integration and acceptance tests on PR requests
 - Deploy on a merge to master to an environment, (whether ephemeral or static) to perform a light end-to-end, not repeating the above steps
 - Perform quick end-to-end tests that are there to just validate that things work together as expected, (no need to repeat unit / acceptance tests already done)
+- Drive common tasks from a Makefile to provide a common interface across projects and languages (e.g. build, start, test, etc)
