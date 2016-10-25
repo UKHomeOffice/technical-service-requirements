@@ -1,6 +1,7 @@
 ## Reusability Criteria
 
 ### As a Reusable Service, I should: 
+
 - Follow open source best practices / ways of working
 - Offer visibility into my CI i.e. test feedback
 - Offer visibility of issues / backlog

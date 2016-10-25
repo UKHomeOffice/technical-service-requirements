@@ -2,7 +2,7 @@
 
 ### Overview
 
-The aim of this living documentation, is to provide an expectation of what is required of our services in terms
+The aim of this living documentation is to provide an expectation of what is required of our services in terms
 of the technical implementation. This is broken up into several documents to clearly document how we want to monitor,
 iterate, continuously integrate / deploy and debug our services.
 
@@ -18,7 +18,7 @@ and raise a PR for this to be amended.
 * [Logging](docs/logging.md)
 * [Service Discovery](docs/service_discovery.md)
 * [Continuous Integration](docs/ci.md)
-* [Continuous_Deployment](docs/cd.md)
+* [Continuous Deployment](docs/cd.md)
 * [Security](docs/security.md)
 * [Performance](docs/performance.md)
 * [Reusability Criteria](docs/reusability.md)
