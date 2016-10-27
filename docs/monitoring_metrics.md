@@ -11,5 +11,8 @@ There are some expectations around the monitoring, that is to understand concept
 ### As a service we expect there to be:
 
 * A `/metrics` endpoint for your service to expose all necessary metrics
+  Used by `Prometheus` for monitoring and alerting
 * A `/healthz` endpoint for the liveness Probe
+  Used by `Kubernetes` for cluster maintenance; should respond with the `200` success status, otherwise the node will be restarted
 * A `/readiness` endpoint for the readiness probe
+  Used by `Kubernetes` for cluster maintenance; should respond with the `200` success status, otherwise the node will be taken out of the active pool and will not receive further [external] requests until it is ready again (resumes responding with `200` status)
