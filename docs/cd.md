@@ -2,7 +2,7 @@
 
 ### As a service, I should:
 
-- Be able to be deployed as an isolated entity
+- Be deployed as an isolated entity
 - Not require other versions to be deployed with me
 - Expose a readiness probe that meets my requirements (i.e. the versioned services I need are there hence I am ready)
 - Expose a liveness probe to check and monitor my health once deployed
