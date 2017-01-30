@@ -7,3 +7,5 @@
 - Use SSO for users and not hold users locally
 - Have a way of providing auditable information on myself
 - Have authentication / authorization for dependent services where data needs to be protected
+- Not have my services or applications run as root.
+- Not have the filesystems on my systems as writable, with exception of the specific paths that require this.
