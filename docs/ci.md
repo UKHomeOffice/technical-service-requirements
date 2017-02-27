@@ -15,4 +15,11 @@
 - Do unit, integration and acceptance tests on PRs before and after they are merged
 - Perform automated smoke tests to validate that things work together as expected
 - Have clear, concise commit messages conforming to [semantic commit messages](https://docs.google.com/document/d/1QrDFcIiPjSLDn3EL15IJygNPiHORgU1_OOAqWjiDU5Y/edit#), and using the footer to add bug tracker/story ID and/or username(s) if developed in a pair/mob (`git commit --verbose` is useful for multi-line messages)
-
+- Protect your master branch
+- No force pushing to master
+- Reviews required on PRs before they can be merged
+- Develop each story on a new branch
+- Merge to master regularly to avoid merge hell
+- Make sure issues are tracked with the corresponding code repository
+- Make sure epic issues are tracked at the service repository level
+- Understand [github's issue management](https://help.github.com/articles/closing-issues-via-commit-messages/) as part of the development workflow 
