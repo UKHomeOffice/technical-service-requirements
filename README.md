@@ -14,6 +14,7 @@ and raise a PR for this to be amended.
 ### Technical Service Standards
 
 * [Configuration](docs/configuration.md)
+* [Documentation](docs/documentation.md)
 * [Monitoring and Metrics](docs/monitoring_metrics.md)
 * [Logging](docs/logging.md)
 * [Service Discovery](docs/service_discovery.md)
