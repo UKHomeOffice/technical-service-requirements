@@ -24,3 +24,4 @@ and raise a PR for this to be amended.
 * [Security](docs/security.md)
 * [Performance](docs/performance.md)
 * [Reusability Criteria](docs/reusability.md)
+* [Cloud build standards](docs/cloud_build_standards.md)
