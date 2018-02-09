@@ -88,6 +88,8 @@ might be elasticsearch but it's overall logging for example)  | Yes |
 - **MUST** use multiple [account security structures](https://aws.amazon.com/answers/account-management/aws-multi-account-security-strategy/)
 - All accounts **MUST** use the central IAM structure and policies [please read the varied docs on cross account access](https://aws.amazon.com/blogs/security/tag/cross-account-access/)
 - All user accounts **MUST** have MFA associated with them
+- All users **MUST** rotate their access keys every 90 days
+- Projects **SHOULD** change access keys for services used by applications every 90 days
 - All user acounts **MUST** assume role and use short lived access keys into the account
 - All CI robot accounts **MUST** have locked down policies to restrict to IP's of CI plus detailed policies where possible and multiple robot accounts to reduce risk where possible
 - All accounts **MUST** log to central audit
