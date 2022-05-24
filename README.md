@@ -1,3 +1,6 @@
+# This guidance is deprecated and has been superseded by the HO Software Engineering Guidance and Standards
+24th May 2022
+
 # Technical Service Requirements
 
 ### Overview
